@@ -14,4 +14,8 @@ public todos:any;
     this.todos=this._todo.todoList
   }
 
+  delete(index:number){
+    this._todo.deleteToDo(index);
+  }
+
 }
